@@ -1,0 +1,68 @@
+﻿<html lang="fr">
+<head>
+  <title>Pendu</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onload="init();">
+  <table bgcolor="#c0c0c0" border="1">
+
+    <!-- 1ère ligne -->
+    <tr>
+      <td colspan="6" align="right">
+        <span>Score :</span> 
+        <input type="text" id="zone_score" value="0" size="2" readonly />
+        <br>
+        <span>Nombre d'erreurs permises :</span>
+        <input type="text" id="zone_erreurs" value="0" size="2" readonly />
+      </td>
+      <td colspan="7" align="center">
+        <input type="text" id="zone_mot" value="zone mot" size="25" readonly />
+        <br>
+        <input type="text" id="zone_essais" value="zone essais" size="25" readonly />
+      </td>
+      <td colspan="2" align="center">
+        <input type="button" id="GO" value="GO">
+      </td>
+    </tr>
+
+    <!-- 2ème ligne -->
+    <tr>
+      <td><input type="button" value="A" class="lettre"></td>
+      <td><input type="button" value="B" class="lettre"></td>
+      <td><input type="button" value="C" class="lettre"></td>
+      <td><input type="button" value="D" class="lettre"></td>
+      <td><input type="button" value="E" class="lettre"></td>
+      <td><input type="button" value="F" class="lettre"></td>
+      <td><input type="button" value="G" class="lettre"></td>
+      <td><input type="button" value="H" class="lettre"></td>
+      <td><input type="button" value="I" class="lettre"></td>
+      <td><input type="button" value="J" class="lettre"></td>
+      <td><input type="button" value="K" class="lettre"></td>
+      <td><input type="button" value="L" class="lettre"></td>
+      <td><input type="button" value="M" class="lettre"></td>
+    </tr>
+
+    <!-- 3ème ligne -->
+    <tr>
+      <td><input type="button" value="N"  class="lettre"></td>
+      <td><input type="button" value="O"  class="lettre"></td>
+      <td><input type="button" value="P"  class="lettre"></td>
+      <td><input type="button" value="Q"  class="lettre"></td>
+      <td><input type="button" value="R"  class="lettre"></td>
+      <td><input type="button" value="S"  class="lettre"></td>
+      <td><input type="button" value="T"  class="lettre"></td>
+      <td><input type="button" value="U"  class="lettre"></td>
+      <td><input type="button" value="V"  class="lettre"></td>
+      <td><input type="button" value="W"  class="lettre"></td>
+      <td><input type="button" value="X"  class="lettre"></td>
+      <td><input type="button" value="Y"  class="lettre"></td>
+      <td><input type="button" value="Z"  class="lettre"></td>
+    </tr>
+  </table>
+
+  <!-- Inclusion du script JS -->
+  <script src="script.js"></script>
+  
+</body>
+</html>
